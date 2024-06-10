@@ -4,7 +4,7 @@ public class Acount {
     int balance;
 
     int deposit(int amount) {
-        return balanceß + amount;
+        return balance + amount;
     }
 
     int withdraw(int amount) {
