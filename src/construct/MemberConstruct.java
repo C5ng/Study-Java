@@ -12,4 +12,12 @@ public class MemberConstruct {
         this.age = age;
         this.grade = grade;
     }
+
+    // 생성자 추가
+    MemberConstruct(String name, int age) {
+        this(name, age, 50); // 자기 자신 호출, 생성자 코드의 첫 줄에만 작성 가능하다.
+//        this.name = name;
+//        this.age = age;
+//        this.grade = 50;
+    }
 }
