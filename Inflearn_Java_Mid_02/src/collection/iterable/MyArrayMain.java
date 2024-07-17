@@ -12,5 +12,11 @@ public class MyArrayMain {
             Integer value = iterator.next();
             System.out.println("value = " + value);
         }
+
+        // 추가
+        System.out.println("for-each 사용");
+        for (Integer value : myArray) { // Iterable을 구현해야한다.
+            System.out.println("value = " + value);
+        }
     }
 }
